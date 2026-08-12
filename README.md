@@ -1,6 +1,6 @@
-# Chapter
+# Chapter Buildoff
 
-Chapter begins by learning from one experience a person will never forget.
+Chapter Buildoff begins by learning from one experience a person will never forget.
 It meets them in iMessage, turns that experience into a private graph of
 people, places, activities, feelings, and patterns, and lets them explore that
 growing picture in the authenticated **You** view.
@@ -19,7 +19,7 @@ authenticated accounts without exposing either person's memories.
 
 ## Live app
 
-- Frontend: https://usechapter.vercel.app
+- Frontend: https://chapter-buildoff.vercel.app
 - Base44 app ID: `6a606ec9966ada5a7874da07`
 
 Open `/app` to see the authenticated product and private **You** world.

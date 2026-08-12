@@ -1,6 +1,6 @@
 {
-  "name": "chapter",
-  "description": "Base44 backend and private memory store for Chapter's Eve agent.",
+  "name": "chapter-buildoff",
+  "description": "Base44 backend and private memory store for the Chapter Buildoff edition.",
   "visibility": "public",
   "site": {
     "outputDirectory": "./base44/site"

@@ -23,7 +23,7 @@ const chapterInstrument = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Chapter",
+  title: "Chapter Buildoff",
   description:
     "Experiences that feel strangely meant for you.",
 };
