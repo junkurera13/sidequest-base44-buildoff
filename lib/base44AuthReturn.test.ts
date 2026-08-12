@@ -15,14 +15,14 @@ describe("safeBase44AuthReturnOrigin", () => {
   });
 
   it.each([
-    "https://usechapter.vercel.app/api/apps/auth/final-callback",
+    "https://chapter-buildoff.vercel.app/api/apps/auth/final-callback",
     "https://sidequest-b44.vercel.app/api/apps/auth/final-callback",
     "http://localhost:4000/api/apps/auth/final-callback",
     "http://localhost.attacker.example:3000/api/apps/auth/final-callback",
     "not a url",
   ])("canonicalizes every other callback to production", (requestUrl) => {
     expect(safeBase44AuthReturnOrigin(requestUrl)).toBe(
-      "https://usechapter.vercel.app",
+      "https://chapter-buildoff.vercel.app",
     );
   });
 });

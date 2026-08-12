@@ -1,6 +1,6 @@
 export const BASE44_AUTH_RETURN_COOKIE = "chapter_auth_return";
 
-const PRODUCTION_APP_ORIGIN = "https://usechapter.vercel.app";
+const PRODUCTION_APP_ORIGIN = "https://chapter-buildoff.vercel.app";
 const LOCAL_AUTH_ORIGINS = new Set([
   "http://localhost:3000",
   "http://127.0.0.1:3000",

@@ -65,7 +65,7 @@ async function generateThroughOpenRouter(args: {
     headers: {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
-      "HTTP-Referer": "https://usechapter.vercel.app",
+      "HTTP-Referer": "https://chapter-buildoff.vercel.app",
       "X-Title": "Chapter",
       "X-Request-ID": args.requestId,
     },

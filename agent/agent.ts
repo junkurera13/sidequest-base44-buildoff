@@ -7,7 +7,7 @@ const CONVERSATION_MODEL_ID = "deepseek/deepseek-v4-flash";
 const openrouter = createOpenRouter({
   compatibility: "strict",
   appName: "Chapter",
-  appUrl: "https://usechapter.vercel.app",
+  appUrl: "https://chapter-buildoff.vercel.app",
   extraBody: {
     provider: {
       allow_fallbacks: true,

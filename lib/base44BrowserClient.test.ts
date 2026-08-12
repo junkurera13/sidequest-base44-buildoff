@@ -20,7 +20,7 @@ describe("getBase44GoogleLoginUrl", () => {
 
 describe("getBase44AuthBridgeUrl", () => {
   it("starts production OAuth from the Base44-owned app domain", () => {
-    const returnUrl = "https://usechapter.vercel.app/app";
+    const returnUrl = "https://chapter-buildoff.vercel.app/app";
     const bridgeUrl = new URL(getBase44AuthBridgeUrl(returnUrl));
 
     expect(bridgeUrl.origin + bridgeUrl.pathname).toBe(

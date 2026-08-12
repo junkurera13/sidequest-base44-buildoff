@@ -137,7 +137,7 @@ function openRouter() {
     apiKey,
     compatibility: "strict",
     appName: "Chapter weekly pack lab",
-    appUrl: "https://usechapter.vercel.app",
+    appUrl: "https://chapter-buildoff.vercel.app",
     extraBody: {
       provider: {
         allow_fallbacks: true,

@@ -28,7 +28,7 @@ describe("handleSidequestDirectMessage", () => {
     vi.restoreAllMocks();
     processSidequestMessage.mockReset();
     markSidequestMessageDelivered.mockReset();
-    vi.stubEnv("SIDEQUEST_AGENT_URL", "https://usechapter.vercel.app");
+    vi.stubEnv("SIDEQUEST_AGENT_URL", "https://chapter-buildoff.vercel.app");
   });
 
   it("ignores unsupported empty content without sending a fallback", async () => {
@@ -90,7 +90,7 @@ describe("handleSidequestDirectMessage", () => {
       text: "Hey",
       messageId: "msg-1",
       threadId: "thread-1",
-      origin: "https://usechapter.vercel.app",
+      origin: "https://chapter-buildoff.vercel.app",
     });
     expect(post).toHaveBeenCalledOnce();
     expect(post).toHaveBeenCalledWith("Welcome to Chapter.");

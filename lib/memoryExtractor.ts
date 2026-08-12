@@ -58,7 +58,7 @@ const openrouter = createOpenRouter({
   apiKey: process.env.OPENROUTER_API_KEY,
   compatibility: "strict",
   appName: "Chapter",
-  appUrl: "https://usechapter.vercel.app",
+  appUrl: "https://chapter-buildoff.vercel.app",
   extraBody: {
     provider: {
       allow_fallbacks: true,
